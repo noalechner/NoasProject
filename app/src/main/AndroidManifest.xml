@@ -13,6 +13,9 @@
         android:theme="@style/Theme.NoasProject"
         tools:targetApi="31">
         <activity
+            android:name=".sushiPage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
