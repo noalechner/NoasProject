@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClick(View view) {
-        Intent i = new Intent(,);
-        return;
+    public void onSushiClick(View view) {
+        Intent sushiIntent = new Intent(this, sushiPage.class);
+        startActivity(sushiIntent);
     }
 }
