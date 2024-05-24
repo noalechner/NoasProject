@@ -18,4 +18,15 @@ public class MainActivity extends AppCompatActivity {
         Intent sushiIntent = new Intent(this, sushiPage.class);
         startActivity(sushiIntent);
     }
+
+    public void onPizzaClick(View view) {
+        Intent pizzaIntent = new Intent(this, PizzaPage.class);
+        startActivity(pizzaIntent);
+    }
+}
+
+    public void onShawarmaClick(View view) {
+        Intent shawarma Intent = new Intent(this, shawarmaPage.class);
+        startActivity(shawarmaIntent);
+    }
 }

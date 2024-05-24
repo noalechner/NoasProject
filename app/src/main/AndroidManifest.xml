@@ -13,6 +13,9 @@
         android:theme="@style/Theme.NoasProject"
         tools:targetApi="31">
         <activity
+            android:name=".ShawarmaPage"
+            android:exported="false" />
+        <activity
             android:name=".PizzaPage"
             android:exported="false" />
         <activity
