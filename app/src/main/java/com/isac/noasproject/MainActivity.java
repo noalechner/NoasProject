@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
         Intent pizzaIntent = new Intent(this, PizzaPage.class);
         startActivity(pizzaIntent);
     }
-}
+
 
     public void onShawarmaClick(View view) {
-        Intent shawarma Intent = new Intent(this, shawarmaPage.class);
+        Intent shawarmaIntent = new Intent(this, ShawarmaPage.class);
         startActivity(shawarmaIntent);
     }
 }
